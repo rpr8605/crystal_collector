@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Crystal Collector</title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <!-- Latest compiled and minified CSS (Bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme (Bootstrap) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  
+    <h1>Crystal Collector</h1></div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 instructions">
+            <h2>Instructions</h2> 
+            <p> You start the Game with Random (Billy) Crystal
+              <P> You also have a score that you are trying to get to</P>
+              <p> Click on Random Crystals and try to get to the score on the side of the page</p>
+              <P> If you can get it, then you have won.  If you go over, you do not win anything at all.</P>
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+
+
+  <div class="scoreBox">
+    <div class="row">
+      <div class="col-sm-9">
+        <h2>Score: <span id="score"></span></h2>
+      </div>
+    <div class="col-sm-3">
+        <h3>Wins: <span id="won"></span></h3>
+        <h3 class="text-left">Losses: <span id="loss"></span></h3>
+      </div>
+    </div>
+        </div>
+
+      <div class="row text-center">
+        <div class="col-sm-3">
+        <img src="assets/images/crystal1.jpg" class="img-thumnail 1" alt="Crystal1" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/crystal2.jpg" class="img-thumbnail 2" alt="crystal2" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/crystal3.jpg" class="img-thumnail 3" alt="crystal3" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/crystal4.jpg" class="img-thumnail 4" alt="crystal4" width="200" height="200" />
+        </div>
+  </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="scoreBox">
+      <h2>Your total score is: <span id="totalScore"></span></h2>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+</body>
+<!-- JS -->
+<script src="assets/javascript/game.js"></script> 
+</html>
